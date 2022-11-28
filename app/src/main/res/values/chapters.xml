@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="allchapters">
+        <item>st nulle.</item>
+        <item>2 Sem</item>
+        <item>3 Sem</item>
+        <item>4 Sem</item>
+        <item>5 Sem</item>
+        <item>6 Sem</item>
+    </string-array>
+
+</resources>

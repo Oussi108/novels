@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+<item android:id="@+id/blackbg"
+    app:showAsAction="always"
+    android:icon="@drawable/ablackicon"
+    android:title="Change to black background"
+    ></item>
+    <item android:id="@+id/whitebg"
+        app:showAsAction="always"
+        android:icon="@drawable/awhiteicon"
+        android:title="Change to white background"
+        ></item>
+
+
+    <item
+        app:showAsAction="always"
+        android:id="@+id/smallfont"
+        android:icon="@drawable/smallerzise"
+        android:title="Smaller Font"
+        ></item>
+    <item app:showAsAction="always"
+        android:id="@+id/middlefont"
+    android:icon="@drawable/backtonormal"
+    android:title="Normal Font"
+    ></item>
+    <item
+        app:showAsAction="always"
+        android:id="@+id/bigfont"
+    android:icon="@drawable/bigsize"
+    android:title="Bigger Font">
+    </item>
+
+
+
+</menu>

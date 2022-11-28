@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3c2c3e"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="257dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/mainpic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="242dp"
+        android:layout_height="252dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.118">
+
+        <Button
+            android:id="@+id/GotoListPage"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/buttonstart"
+            android:fontFamily="sans-serif-black"
+            android:text="Read"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/MoreNovelPage"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/buttonstart"
+            android:fontFamily="sans-serif-black"
+            android:padding="5dp"
+            android:text="More Apps"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/setsettings"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@drawable/buttonstart"
+            android:fontFamily="sans-serif-black"
+            android:text="Reading settings"
+            android:textSize="18sp"
+            android:visibility="visible" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
